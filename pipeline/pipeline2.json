@@ -49,13 +49,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "ds_ourblob2025",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_ourdatav1",
+						"referenceName": "ds_datalake2025",
 						"type": "DatasetReference"
 					}
 				]

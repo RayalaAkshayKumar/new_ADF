@@ -1,0 +1,44 @@
+{
+	"name": "ds_ourblob2025",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blobstorage2025",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "emp1.txt",
+				"fileSystem": "mydata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "101",
+				"type": "String"
+			},
+			{
+				"name": "amar",
+				"type": "String"
+			},
+			{
+				"name": "90000",
+				"type": "String"
+			},
+			{
+				"name": "m",
+				"type": "String"
+			},
+			{
+				"name": "11",
+				"type": "String"
+			}
+		]
+	}
+}
