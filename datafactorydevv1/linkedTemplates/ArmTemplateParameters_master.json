@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactorydevv1"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_sql1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://lokeshdatalake2025.dfs.core.windows.net/"
+		},
+		"ls_sql1_properties_typeProperties_server": {
+			"value": "lokeshdbserver.database.windows.net"
+		},
+		"ls_sql1_properties_typeProperties_database": {
+			"value": "lokesh_db2025"
+		},
+		"ls_sql1_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
